@@ -1,0 +1,17 @@
+{
+  "name": "spinal-env-drive-lib-sample",
+  "version": "v1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run create_drive_env",
+    "create_drive_env": "create_drive_env -m"
+  },
+  "dependencies": {
+    "spinal-env-drive-plugin-sample": "https://github.com/spinalcom/spinal-env-drive-plugin-sample"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
